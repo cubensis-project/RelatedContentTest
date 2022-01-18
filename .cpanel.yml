@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/cubensis/public_html/test/production
+    - /gitTest test01.txt $DEPLOYPATH
