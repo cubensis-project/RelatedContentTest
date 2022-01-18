@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/cubensis/public_html/test/production
-    - /bin/cp /home/cubensis/public_html/test/git/gitTest/test01.txt  $DEPLOYPATH
+    - export DEPLOYPATH=/public_html/test/production
+    - /bin/cp /public_html/test/git/gitTest/test01.txt $DEPLOYPATH
